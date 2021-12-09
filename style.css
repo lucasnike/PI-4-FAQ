@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+
+  background: #e7eff3;
+
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-bottom: 60px;
+}
+
+.title {
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-family: "Itim", cursive;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #ad9300;
+}
+
+.card {
+  margin-top: 60px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  font-family: "Share Tech Mono", monospace;
+  font-size: 2rem;
+  padding: 46px;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image {
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+
+.answer-style {
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+
+  font-size: 1.4rem;
+}
+
+.answer-style > h2 {
+  color: #ad9300;
+  font-size: 1.3rem;
+}
